@@ -17,6 +17,14 @@ class MovieView extends React.Component {
                     <span className="label"> Description: </span>
                     <span className="value"> {movieData.Description} </span>
                 </div>
+                <div className="movie-genre">
+                    <span className="label">Genre: </span>
+                    <span className="value">{movieData.Genre}</span>
+                </div>
+                <div className="movie-director">
+                    <span className="label">Director: </span>
+                    <span className="value">{movieData.Director}</span>
+                </div>
                 <button onClick= {() => {onBackClick(null); }} >Back</button>
             </div>
         );
