@@ -25825,7 +25825,8 @@ RegistrationView.propTypes = {
         Password: _propTypesDefault.default.string.isRequired,
         Email: _propTypesDefault.default.string.isRequired,
         Birthday: _propTypesDefault.default.string.isRequired
-    })
+    }),
+    onRegistration: _propTypesDefault.default.func.isRequired
 };
 exports.default = RegistrationView;
 var _c;
