@@ -22754,6 +22754,7 @@ var _movieCardDefault = parcelHelpers.interopDefault(_movieCard);
 var _movieView = require("../movie-view/movie-view"); // Import movieview to the main view.
 var _movieViewDefault = parcelHelpers.interopDefault(_movieView);
 var _reactBootstrap = require("react-bootstrap");
+var _mainViewScss = require("./main-view.scss");
 // create a class component with the name 'MainView', that can be exported and imported in other files.
 class MainView extends _reactDefault.default.Component {
     constructor(){
@@ -22803,7 +22804,7 @@ class MainView extends _reactDefault.default.Component {
             ,
             __source: {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 62
+                lineNumber: 64
             },
             __self: this
         }));
@@ -22812,7 +22813,7 @@ class MainView extends _reactDefault.default.Component {
             ,
             __source: {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 66
+                lineNumber: 68
             },
             __self: this
         }));
@@ -22821,7 +22822,7 @@ class MainView extends _reactDefault.default.Component {
             className: "main-view",
             __source: {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 72
+                lineNumber: 74
             },
             __self: this
         }));
@@ -22830,13 +22831,13 @@ class MainView extends _reactDefault.default.Component {
             className: "main-view",
             __source: {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 76
+                lineNumber: 78
             },
             __self: this,
             children: selectedMovie ? /*#__PURE__*/ _jsxRuntime.jsxs("div", {
                 __source: {
                     fileName: "src/components/main-view/main-view.jsx",
-                    lineNumber: 78
+                    lineNumber: 80
                 },
                 __self: this,
                 children: [
@@ -22846,13 +22847,13 @@ class MainView extends _reactDefault.default.Component {
                         sticky: "top",
                         __source: {
                             fileName: "src/components/main-view/main-view.jsx",
-                            lineNumber: 79
+                            lineNumber: 81
                         },
                         __self: this,
                         children: /*#__PURE__*/ _jsxRuntime.jsxs(_reactBootstrap.Container, {
                             __source: {
                                 fileName: "src/components/main-view/main-view.jsx",
-                                lineNumber: 80
+                                lineNumber: 82
                             },
                             __self: this,
                             children: [
@@ -22860,7 +22861,7 @@ class MainView extends _reactDefault.default.Component {
                                     href: "#home",
                                     __source: {
                                         fileName: "src/components/main-view/main-view.jsx",
-                                        lineNumber: 81
+                                        lineNumber: 83
                                     },
                                     __self: this,
                                     children: "Myflix"
@@ -22869,7 +22870,7 @@ class MainView extends _reactDefault.default.Component {
                                     className: "me-auto",
                                     __source: {
                                         fileName: "src/components/main-view/main-view.jsx",
-                                        lineNumber: 82
+                                        lineNumber: 84
                                     },
                                     __self: this,
                                     children: [
@@ -22877,7 +22878,7 @@ class MainView extends _reactDefault.default.Component {
                                             href: "#home",
                                             __source: {
                                                 fileName: "src/components/main-view/main-view.jsx",
-                                                lineNumber: 83
+                                                lineNumber: 85
                                             },
                                             __self: this,
                                             children: "Home"
@@ -22886,7 +22887,7 @@ class MainView extends _reactDefault.default.Component {
                                             href: "#features",
                                             __source: {
                                                 fileName: "src/components/main-view/main-view.jsx",
-                                                lineNumber: 84
+                                                lineNumber: 86
                                             },
                                             __self: this,
                                             children: "Profile"
@@ -22900,14 +22901,14 @@ class MainView extends _reactDefault.default.Component {
                         className: "justify-content-md-center",
                         __source: {
                             fileName: "src/components/main-view/main-view.jsx",
-                            lineNumber: 88
+                            lineNumber: 90
                         },
                         __self: this,
                         children: /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Col, {
                             md: 8,
                             __source: {
                                 fileName: "src/components/main-view/main-view.jsx",
-                                lineNumber: 89
+                                lineNumber: 91
                             },
                             __self: this,
                             children: /*#__PURE__*/ _jsxRuntime.jsx(_movieViewDefault.default, {
@@ -22917,7 +22918,7 @@ class MainView extends _reactDefault.default.Component {
                                 },
                                 __source: {
                                     fileName: "src/components/main-view/main-view.jsx",
-                                    lineNumber: 90
+                                    lineNumber: 92
                                 },
                                 __self: this
                             })
@@ -22928,7 +22929,7 @@ class MainView extends _reactDefault.default.Component {
                 className: "movie-view",
                 __source: {
                     fileName: "src/components/main-view/main-view.jsx",
-                    lineNumber: 100
+                    lineNumber: 102
                 },
                 __self: this,
                 children: [
@@ -22938,13 +22939,13 @@ class MainView extends _reactDefault.default.Component {
                         sticky: "top",
                         __source: {
                             fileName: "src/components/main-view/main-view.jsx",
-                            lineNumber: 101
+                            lineNumber: 103
                         },
                         __self: this,
                         children: /*#__PURE__*/ _jsxRuntime.jsxs(_reactBootstrap.Container, {
                             __source: {
                                 fileName: "src/components/main-view/main-view.jsx",
-                                lineNumber: 102
+                                lineNumber: 104
                             },
                             __self: this,
                             children: [
@@ -22952,7 +22953,7 @@ class MainView extends _reactDefault.default.Component {
                                     href: "#home",
                                     __source: {
                                         fileName: "src/components/main-view/main-view.jsx",
-                                        lineNumber: 103
+                                        lineNumber: 105
                                     },
                                     __self: this,
                                     children: "Myflix"
@@ -22961,7 +22962,7 @@ class MainView extends _reactDefault.default.Component {
                                     className: "me-auto",
                                     __source: {
                                         fileName: "src/components/main-view/main-view.jsx",
-                                        lineNumber: 104
+                                        lineNumber: 106
                                     },
                                     __self: this,
                                     children: [
@@ -22969,7 +22970,7 @@ class MainView extends _reactDefault.default.Component {
                                             href: "#home",
                                             __source: {
                                                 fileName: "src/components/main-view/main-view.jsx",
-                                                lineNumber: 105
+                                                lineNumber: 107
                                             },
                                             __self: this,
                                             children: "Home"
@@ -22978,7 +22979,7 @@ class MainView extends _reactDefault.default.Component {
                                             href: "#features",
                                             __source: {
                                                 fileName: "src/components/main-view/main-view.jsx",
-                                                lineNumber: 106
+                                                lineNumber: 108
                                             },
                                             __self: this,
                                             children: "Profile"
@@ -22991,21 +22992,21 @@ class MainView extends _reactDefault.default.Component {
                     /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Container, {
                         __source: {
                             fileName: "src/components/main-view/main-view.jsx",
-                            lineNumber: 110
+                            lineNumber: 112
                         },
                         __self: this,
                         children: /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Row, {
                             className: "justify-content-md-center",
                             __source: {
                                 fileName: "src/components/main-view/main-view.jsx",
-                                lineNumber: 111
+                                lineNumber: 113
                             },
                             __self: this,
                             children: movies.map((movie)=>/*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Col, {
                                     md: 3,
                                     __source: {
                                         fileName: "src/components/main-view/main-view.jsx",
-                                        lineNumber: 113
+                                        lineNumber: 115
                                     },
                                     __self: this,
                                     children: /*#__PURE__*/ _jsxRuntime.jsx(_movieCardDefault.default, {
@@ -23015,7 +23016,7 @@ class MainView extends _reactDefault.default.Component {
                                         },
                                         __source: {
                                             fileName: "src/components/main-view/main-view.jsx",
-                                            lineNumber: 114
+                                            lineNumber: 116
                                         },
                                         __self: this
                                     }, movie._id)
@@ -23035,7 +23036,7 @@ exports.default = MainView; // Export the MainView to be able to use in other fi
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"8xIwr","react":"6TuXu","axios":"iYoWk","../login-view/login-view":"054li","../regestration-view/registration-view":"5NRbw","../movie-card/movie-card":"6EiBJ","../movie-view/movie-view":"ikZdr","react-bootstrap":"h2YVd","@parcel/transformer-js/src/esmodule-helpers.js":"fOETX","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"hfOTK"}],"iYoWk":[function(require,module,exports) {
+},{"react/jsx-runtime":"8xIwr","react":"6TuXu","axios":"iYoWk","../login-view/login-view":"054li","../regestration-view/registration-view":"5NRbw","../movie-card/movie-card":"6EiBJ","../movie-view/movie-view":"ikZdr","react-bootstrap":"h2YVd","@parcel/transformer-js/src/esmodule-helpers.js":"fOETX","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"hfOTK","./main-view.scss":"jyMAr"}],"iYoWk":[function(require,module,exports) {
 module.exports = require('./lib/axios');
 
 },{"./lib/axios":"3QmO2"}],"3QmO2":[function(require,module,exports) {
@@ -37783,7 +37784,7 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _propTypes = require("prop-types"); // import proptypes to the movie card.
 var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
 var _reactBootstrap = require("react-bootstrap");
-var _domHelpers = require("dom-helpers");
+var _movieCardScss = require("./movie-card.scss");
 class MovieCard extends _reactDefault.default.Component {
     //created a component called moviecard.
     render() {
@@ -37794,7 +37795,7 @@ class MovieCard extends _reactDefault.default.Component {
             },
             __source: {
                 fileName: "src/components/movie-card/movie-card.jsx",
-                lineNumber: 11
+                lineNumber: 12
             },
             __self: this,
             children: [
@@ -37804,21 +37805,21 @@ class MovieCard extends _reactDefault.default.Component {
                     src: movie.ImagePath,
                     __source: {
                         fileName: "src/components/movie-card/movie-card.jsx",
-                        lineNumber: 12
+                        lineNumber: 13
                     },
                     __self: this
                 }),
                 /*#__PURE__*/ _jsxRuntime.jsxs(_reactBootstrap.Card.Body, {
                     __source: {
                         fileName: "src/components/movie-card/movie-card.jsx",
-                        lineNumber: 13
+                        lineNumber: 14
                     },
                     __self: this,
                     children: [
                         /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Card.Title, {
                             __source: {
                                 fileName: "src/components/movie-card/movie-card.jsx",
-                                lineNumber: 14
+                                lineNumber: 15
                             },
                             __self: this,
                             children: movie.Title
@@ -37826,7 +37827,7 @@ class MovieCard extends _reactDefault.default.Component {
                         /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Card.Text, {
                             __source: {
                                 fileName: "src/components/movie-card/movie-card.jsx",
-                                lineNumber: 15
+                                lineNumber: 16
                             },
                             __self: this,
                             children: movie.Description
@@ -37837,7 +37838,7 @@ class MovieCard extends _reactDefault.default.Component {
                             variant: "link",
                             __source: {
                                 fileName: "src/components/movie-card/movie-card.jsx",
-                                lineNumber: 16
+                                lineNumber: 17
                             },
                             __self: this,
                             children: "Open"
@@ -37855,842 +37856,7 @@ exports.default = MovieCard;
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"8xIwr","react":"6TuXu","prop-types":"1tgq3","react-bootstrap":"h2YVd","dom-helpers":"4VatF","@parcel/transformer-js/src/esmodule-helpers.js":"fOETX","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"hfOTK"}],"4VatF":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "addEventListener", ()=>_addEventListenerDefault.default
-);
-parcelHelpers.export(exports, "removeEventListener", ()=>_removeEventListenerDefault.default
-);
-parcelHelpers.export(exports, "triggerEvent", ()=>_triggerEventDefault.default
-);
-parcelHelpers.export(exports, "animate", ()=>_animateDefault.default
-);
-parcelHelpers.export(exports, "filter", ()=>_filterEventHandlerDefault.default
-);
-parcelHelpers.export(exports, "listen", ()=>_listenDefault.default
-);
-parcelHelpers.export(exports, "style", ()=>_cssDefault.default
-);
-parcelHelpers.export(exports, "getComputedStyle", ()=>_getComputedStyleDefault.default
-);
-parcelHelpers.export(exports, "attribute", ()=>_attributeDefault.default
-);
-parcelHelpers.export(exports, "activeElement", ()=>_activeElementDefault.default
-);
-parcelHelpers.export(exports, "ownerDocument", ()=>_ownerDocumentDefault.default
-);
-parcelHelpers.export(exports, "ownerWindow", ()=>_ownerWindowDefault.default
-);
-parcelHelpers.export(exports, "requestAnimationFrame", ()=>_animationFrame.request
-);
-parcelHelpers.export(exports, "cancelAnimationFrame", ()=>_animationFrame.cancel
-);
-parcelHelpers.export(exports, "matches", ()=>_matchesDefault.default
-);
-parcelHelpers.export(exports, "height", ()=>_heightDefault.default
-);
-parcelHelpers.export(exports, "width", ()=>_widthDefault.default
-);
-parcelHelpers.export(exports, "offset", ()=>_offsetDefault.default
-);
-parcelHelpers.export(exports, "offsetParent", ()=>_offsetParentDefault.default
-);
-parcelHelpers.export(exports, "position", ()=>_positionDefault.default
-);
-parcelHelpers.export(exports, "contains", ()=>_containsDefault.default
-);
-parcelHelpers.export(exports, "scrollbarSize", ()=>_scrollbarSizeDefault.default
-);
-parcelHelpers.export(exports, "scrollLeft", ()=>_scrollLeftDefault.default
-);
-parcelHelpers.export(exports, "scrollParent", ()=>_scrollParentDefault.default
-);
-parcelHelpers.export(exports, "scrollTo", ()=>_scrollToDefault.default
-);
-parcelHelpers.export(exports, "scrollTop", ()=>_scrollTopDefault.default
-);
-parcelHelpers.export(exports, "querySelectorAll", ()=>_querySelectorAllDefault.default
-);
-parcelHelpers.export(exports, "closest", ()=>_closestDefault.default
-);
-parcelHelpers.export(exports, "addClass", ()=>_addClassDefault.default
-);
-parcelHelpers.export(exports, "removeClass", ()=>_removeClassDefault.default
-);
-parcelHelpers.export(exports, "hasClass", ()=>_hasClassDefault.default
-);
-parcelHelpers.export(exports, "toggleClass", ()=>_toggleClassDefault.default
-);
-parcelHelpers.export(exports, "transitionEnd", ()=>_transitionEndDefault.default
-);
-parcelHelpers.export(exports, "childNodes", ()=>_childNodesDefault.default
-);
-parcelHelpers.export(exports, "childElements", ()=>_childElementsDefault.default
-);
-parcelHelpers.export(exports, "nextUntil", ()=>_nextUntilDefault.default
-);
-parcelHelpers.export(exports, "parents", ()=>_parentsDefault.default
-);
-parcelHelpers.export(exports, "siblings", ()=>_siblingsDefault.default
-);
-parcelHelpers.export(exports, "clear", ()=>_clearDefault.default
-);
-parcelHelpers.export(exports, "insertAfter", ()=>_insertAfterDefault.default
-);
-parcelHelpers.export(exports, "isInput", ()=>_isInputDefault.default
-);
-parcelHelpers.export(exports, "isVisible", ()=>_isVisibleDefault.default
-);
-parcelHelpers.export(exports, "prepend", ()=>_prependDefault.default
-);
-parcelHelpers.export(exports, "remove", ()=>_removeDefault.default
-);
-parcelHelpers.export(exports, "text", ()=>_textDefault.default
-);
-var _activeElement = require("./activeElement");
-var _activeElementDefault = parcelHelpers.interopDefault(_activeElement);
-var _addClass = require("./addClass");
-var _addClassDefault = parcelHelpers.interopDefault(_addClass);
-var _addEventListener = require("./addEventListener");
-var _addEventListenerDefault = parcelHelpers.interopDefault(_addEventListener);
-var _animate = require("./animate");
-var _animateDefault = parcelHelpers.interopDefault(_animate);
-var _animationFrame = require("./animationFrame");
-var _attribute = require("./attribute");
-var _attributeDefault = parcelHelpers.interopDefault(_attribute);
-var _childElements = require("./childElements");
-var _childElementsDefault = parcelHelpers.interopDefault(_childElements);
-var _clear = require("./clear");
-var _clearDefault = parcelHelpers.interopDefault(_clear);
-var _closest = require("./closest");
-var _closestDefault = parcelHelpers.interopDefault(_closest);
-var _contains = require("./contains");
-var _containsDefault = parcelHelpers.interopDefault(_contains);
-var _childNodes = require("./childNodes");
-var _childNodesDefault = parcelHelpers.interopDefault(_childNodes);
-var _css = require("./css");
-var _cssDefault = parcelHelpers.interopDefault(_css);
-var _filterEventHandler = require("./filterEventHandler");
-var _filterEventHandlerDefault = parcelHelpers.interopDefault(_filterEventHandler);
-var _getComputedStyle = require("./getComputedStyle");
-var _getComputedStyleDefault = parcelHelpers.interopDefault(_getComputedStyle);
-var _hasClass = require("./hasClass");
-var _hasClassDefault = parcelHelpers.interopDefault(_hasClass);
-var _height = require("./height");
-var _heightDefault = parcelHelpers.interopDefault(_height);
-var _insertAfter = require("./insertAfter");
-var _insertAfterDefault = parcelHelpers.interopDefault(_insertAfter);
-var _isInput = require("./isInput");
-var _isInputDefault = parcelHelpers.interopDefault(_isInput);
-var _isVisible = require("./isVisible");
-var _isVisibleDefault = parcelHelpers.interopDefault(_isVisible);
-var _listen = require("./listen");
-var _listenDefault = parcelHelpers.interopDefault(_listen);
-var _matches = require("./matches");
-var _matchesDefault = parcelHelpers.interopDefault(_matches);
-var _nextUntil = require("./nextUntil");
-var _nextUntilDefault = parcelHelpers.interopDefault(_nextUntil);
-var _offset = require("./offset");
-var _offsetDefault = parcelHelpers.interopDefault(_offset);
-var _offsetParent = require("./offsetParent");
-var _offsetParentDefault = parcelHelpers.interopDefault(_offsetParent);
-var _ownerDocument = require("./ownerDocument");
-var _ownerDocumentDefault = parcelHelpers.interopDefault(_ownerDocument);
-var _ownerWindow = require("./ownerWindow");
-var _ownerWindowDefault = parcelHelpers.interopDefault(_ownerWindow);
-var _parents = require("./parents");
-var _parentsDefault = parcelHelpers.interopDefault(_parents);
-var _position = require("./position");
-var _positionDefault = parcelHelpers.interopDefault(_position);
-var _prepend = require("./prepend");
-var _prependDefault = parcelHelpers.interopDefault(_prepend);
-var _querySelectorAll = require("./querySelectorAll");
-var _querySelectorAllDefault = parcelHelpers.interopDefault(_querySelectorAll);
-var _remove = require("./remove");
-var _removeDefault = parcelHelpers.interopDefault(_remove);
-var _removeClass = require("./removeClass");
-var _removeClassDefault = parcelHelpers.interopDefault(_removeClass);
-var _removeEventListener = require("./removeEventListener");
-var _removeEventListenerDefault = parcelHelpers.interopDefault(_removeEventListener);
-var _scrollbarSize = require("./scrollbarSize");
-var _scrollbarSizeDefault = parcelHelpers.interopDefault(_scrollbarSize);
-var _scrollLeft = require("./scrollLeft");
-var _scrollLeftDefault = parcelHelpers.interopDefault(_scrollLeft);
-var _scrollParent = require("./scrollParent");
-var _scrollParentDefault = parcelHelpers.interopDefault(_scrollParent);
-var _scrollTo = require("./scrollTo");
-var _scrollToDefault = parcelHelpers.interopDefault(_scrollTo);
-var _scrollTop = require("./scrollTop");
-var _scrollTopDefault = parcelHelpers.interopDefault(_scrollTop);
-var _siblings = require("./siblings");
-var _siblingsDefault = parcelHelpers.interopDefault(_siblings);
-var _text = require("./text");
-var _textDefault = parcelHelpers.interopDefault(_text);
-var _toggleClass = require("./toggleClass");
-var _toggleClassDefault = parcelHelpers.interopDefault(_toggleClass);
-var _transitionEnd = require("./transitionEnd");
-var _transitionEndDefault = parcelHelpers.interopDefault(_transitionEnd);
-var _triggerEvent = require("./triggerEvent");
-var _triggerEventDefault = parcelHelpers.interopDefault(_triggerEvent);
-var _width = require("./width");
-var _widthDefault = parcelHelpers.interopDefault(_width);
-exports.default = {
-    addEventListener: _addEventListenerDefault.default,
-    removeEventListener: _removeEventListenerDefault.default,
-    triggerEvent: _triggerEventDefault.default,
-    animate: _animateDefault.default,
-    filter: _filterEventHandlerDefault.default,
-    listen: _listenDefault.default,
-    style: _cssDefault.default,
-    getComputedStyle: _getComputedStyleDefault.default,
-    attribute: _attributeDefault.default,
-    activeElement: _activeElementDefault.default,
-    ownerDocument: _ownerDocumentDefault.default,
-    ownerWindow: _ownerWindowDefault.default,
-    requestAnimationFrame: _animationFrame.request,
-    cancelAnimationFrame: _animationFrame.cancel,
-    matches: _matchesDefault.default,
-    height: _heightDefault.default,
-    width: _widthDefault.default,
-    offset: _offsetDefault.default,
-    offsetParent: _offsetParentDefault.default,
-    position: _positionDefault.default,
-    contains: _containsDefault.default,
-    scrollbarSize: _scrollbarSizeDefault.default,
-    scrollLeft: _scrollLeftDefault.default,
-    scrollParent: _scrollParentDefault.default,
-    scrollTo: _scrollToDefault.default,
-    scrollTop: _scrollTopDefault.default,
-    querySelectorAll: _querySelectorAllDefault.default,
-    closest: _closestDefault.default,
-    addClass: _addClassDefault.default,
-    removeClass: _removeClassDefault.default,
-    hasClass: _hasClassDefault.default,
-    toggleClass: _toggleClassDefault.default,
-    transitionEnd: _transitionEndDefault.default,
-    childNodes: _childNodesDefault.default,
-    childElements: _childElementsDefault.default,
-    nextUntil: _nextUntilDefault.default,
-    parents: _parentsDefault.default,
-    siblings: _siblingsDefault.default,
-    clear: _clearDefault.default,
-    insertAfter: _insertAfterDefault.default,
-    isInput: _isInputDefault.default,
-    isVisible: _isVisibleDefault.default,
-    prepend: _prependDefault.default,
-    remove: _removeDefault.default,
-    text: _textDefault.default
-};
-
-},{"./activeElement":"1DkVo","./addClass":"72Fep","./addEventListener":"jvKpE","./animate":"oMkUp","./animationFrame":"7vQAp","./attribute":"21FMN","./childElements":"7xF0c","./clear":"9EfVp","./closest":"4CtCo","./contains":"d0Oul","./childNodes":"k3elQ","./css":"23gV0","./filterEventHandler":"b98JB","./getComputedStyle":"1SQLd","./hasClass":"jjbyQ","./height":"93eO8","./insertAfter":"jveEr","./isInput":"aVQBg","./isVisible":"0BrWh","./listen":"g0U4H","./matches":"1SzwY","./nextUntil":"dPSHw","./offset":"g9pCB","./offsetParent":"bLpd5","./ownerDocument":"lrM6c","./ownerWindow":"gzFwD","./parents":"e9kBD","./position":"kgI7n","./prepend":"ixqfv","./querySelectorAll":"5xXGC","./remove":"7Z82f","./removeClass":"i3BZq","./removeEventListener":"4T47v","./scrollbarSize":"3qkIY","./scrollLeft":"9AAix","./scrollParent":"4nIiB","./scrollTo":"dxiSb","./scrollTop":"lQru1","./siblings":"4wuA9","./text":"50wnS","./toggleClass":"g7gSQ","./transitionEnd":"N7ou1","./triggerEvent":"5v2d0","./width":"9mQud","@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"oMkUp":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _css = require("./css");
-var _cssDefault = parcelHelpers.interopDefault(_css);
-var _hyphenate = require("./hyphenate");
-var _hyphenateDefault = parcelHelpers.interopDefault(_hyphenate);
-var _isTransform = require("./isTransform");
-var _isTransformDefault = parcelHelpers.interopDefault(_isTransform);
-var _transitionEnd = require("./transitionEnd");
-var _transitionEndDefault = parcelHelpers.interopDefault(_transitionEnd);
-var reset = {
-    transition: '',
-    'transition-duration': '',
-    'transition-delay': '',
-    'transition-timing-function': ''
-};
-// super lean animate function for transitions
-// doesn't support all translations to keep it matching the jquery API
-/**
- * code in part from: Zepto 1.1.4 | zeptojs.com/license
- */ function _animate(_ref) {
-    var node = _ref.node, properties = _ref.properties, _ref$duration = _ref.duration, duration = _ref$duration === void 0 ? 200 : _ref$duration, easing = _ref.easing, callback = _ref.callback;
-    var cssProperties = [];
-    var cssValues = {
-    };
-    var transforms = '';
-    Object.keys(properties).forEach(function(key) {
-        var value = properties[key];
-        if (_isTransformDefault.default(key)) transforms += key + "(" + value + ") ";
-        else {
-            cssValues[key] = value;
-            cssProperties.push(_hyphenateDefault.default(key));
-        }
-    });
-    if (transforms) {
-        cssValues.transform = transforms;
-        cssProperties.push('transform');
-    }
-    function done(event) {
-        if (event.target !== event.currentTarget) return;
-        _cssDefault.default(node, reset);
-        if (callback) callback.call(this, event);
-    }
-    if (duration > 0) {
-        cssValues.transition = cssProperties.join(', ');
-        cssValues['transition-duration'] = duration / 1000 + "s";
-        cssValues['transition-delay'] = '0s';
-        cssValues['transition-timing-function'] = easing || 'linear';
-    }
-    var removeListener = _transitionEndDefault.default(node, done, duration); // eslint-disable-next-line no-unused-expressions
-    node.clientLeft; // trigger page reflow
-    _cssDefault.default(node, cssValues);
-    return {
-        cancel: function cancel() {
-            removeListener();
-            _cssDefault.default(node, reset);
-        }
-    };
-}
-function animate(nodeOrOptions, properties, duration, easing, callback) {
-    if (!('nodeType' in nodeOrOptions)) return _animate(nodeOrOptions);
-    if (!properties) throw new Error('must include properties to animate');
-    if (typeof easing === 'function') {
-        callback = easing;
-        easing = '';
-    }
-    return _animate({
-        node: nodeOrOptions,
-        properties: properties,
-        duration: duration,
-        easing: easing,
-        callback: callback
-    });
-}
-exports.default = animate;
-
-},{"./css":"23gV0","./hyphenate":"gLW70","./isTransform":"jOida","./transitionEnd":"N7ou1","@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"7vQAp":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "cancel", ()=>cancel
-);
-parcelHelpers.export(exports, "request", ()=>request
-);
-var _canUseDOM = require("./canUseDOM");
-var _canUseDOMDefault = parcelHelpers.interopDefault(_canUseDOM);
-/* https://github.com/component/raf */ var prev = new Date().getTime();
-function fallback(fn) {
-    var curr = new Date().getTime();
-    var ms = Math.max(0, 16 - (curr - prev));
-    var handle = setTimeout(fn, ms);
-    prev = curr;
-    return handle;
-}
-var vendors = [
-    '',
-    'webkit',
-    'moz',
-    'o',
-    'ms'
-];
-var cancelMethod = 'clearTimeout';
-var rafImpl = fallback; // eslint-disable-next-line import/no-mutable-exports
-var getKey = function getKey1(vendor, k) {
-    return vendor + (!vendor ? k : k[0].toUpperCase() + k.substr(1)) + "AnimationFrame";
-};
-if (_canUseDOMDefault.default) vendors.some(function(vendor) {
-    var rafMethod = getKey(vendor, 'request');
-    if (rafMethod in window) {
-        cancelMethod = getKey(vendor, 'cancel'); // @ts-ignore
-        rafImpl = function rafImpl1(cb) {
-            return window[rafMethod](cb);
-        };
-    }
-    return !!rafImpl;
-});
-var cancel = function cancel1(id) {
-    // @ts-ignore
-    if (typeof window[cancelMethod] === 'function') window[cancelMethod](id);
-};
-var request = rafImpl;
-
-},{"./canUseDOM":"pPGj4","@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"21FMN":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-function attribute(node, attr, val) {
-    if (node) {
-        if (typeof val === 'undefined') return node.getAttribute(attr);
-        if (!val && val !== '') node.removeAttribute(attr);
-        else node.setAttribute(attr, String(val));
-    }
-}
-exports.default = attribute;
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"7xF0c":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-function childElements(node) {
-    return node ? Array.from(node.children) : [];
-}
-exports.default = childElements;
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"9EfVp":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-function clear(node) {
-    if (node) {
-        while(node.firstChild)node.removeChild(node.firstChild);
-        return node;
-    }
-    return null;
-}
-exports.default = clear;
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"4CtCo":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _matches = require("./matches");
-var _matchesDefault = parcelHelpers.interopDefault(_matches);
-function closest(node, selector, stopAt) {
-    if (node.closest && !stopAt) node.closest(selector);
-    var nextNode = node;
-    do {
-        if (_matchesDefault.default(nextNode, selector)) return nextNode;
-        nextNode = nextNode.parentElement;
-    }while (nextNode && nextNode !== stopAt && nextNode.nodeType === document.ELEMENT_NODE)
-    return null;
-}
-exports.default = closest;
-
-},{"./matches":"1SzwY","@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"1SzwY":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var matchesImpl;
-function matches(node, selector) {
-    if (!matchesImpl) {
-        var body = document.body;
-        var nativeMatch = body.matches || body.matchesSelector || body.webkitMatchesSelector || body.mozMatchesSelector || body.msMatchesSelector;
-        matchesImpl = function matchesImpl1(n, s) {
-            return nativeMatch.call(n, s);
-        };
-    }
-    return matchesImpl(node, selector);
-}
-exports.default = matches;
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"k3elQ":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var toArray = Function.prototype.bind.call(Function.prototype.call, [].slice);
-function childNodes(node) {
-    return node ? toArray(node.childNodes) : [];
-}
-exports.default = childNodes;
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"b98JB":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _contains = require("./contains");
-var _containsDefault = parcelHelpers.interopDefault(_contains);
-var _querySelectorAll = require("./querySelectorAll");
-var _querySelectorAllDefault = parcelHelpers.interopDefault(_querySelectorAll);
-function filterEvents(selector, handler) {
-    return function filterHandler(e) {
-        var top = e.currentTarget;
-        var target = e.target;
-        var matches = _querySelectorAllDefault.default(top, selector);
-        if (matches.some(function(match) {
-            return _containsDefault.default(match, target);
-        })) handler.call(this, e);
-    };
-}
-exports.default = filterEvents;
-
-},{"./contains":"d0Oul","./querySelectorAll":"5xXGC","@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"93eO8":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _isWindow = require("./isWindow");
-var _isWindowDefault = parcelHelpers.interopDefault(_isWindow);
-var _offset = require("./offset");
-var _offsetDefault = parcelHelpers.interopDefault(_offset);
-function height(node, client) {
-    var win = _isWindowDefault.default(node);
-    return win ? win.innerHeight : client ? node.clientHeight : _offsetDefault.default(node).height;
-}
-exports.default = height;
-
-},{"./isWindow":"e9RKY","./offset":"g9pCB","@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"e9RKY":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _isDocument = require("./isDocument");
-var _isDocumentDefault = parcelHelpers.interopDefault(_isDocument);
-function isWindow(node) {
-    if ('window' in node && node.window === node) return node;
-    if (_isDocumentDefault.default(node)) return node.defaultView || false;
-    return false;
-}
-exports.default = isWindow;
-
-},{"./isDocument":"2dDcY","@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"2dDcY":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-function isDocument(element) {
-    return 'nodeType' in element && element.nodeType === document.DOCUMENT_NODE;
-}
-exports.default = isDocument;
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"g9pCB":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _contains = require("./contains");
-var _containsDefault = parcelHelpers.interopDefault(_contains);
-var _ownerDocument = require("./ownerDocument");
-var _ownerDocumentDefault = parcelHelpers.interopDefault(_ownerDocument);
-var _scrollLeft = require("./scrollLeft");
-var _scrollLeftDefault = parcelHelpers.interopDefault(_scrollLeft);
-var _scrollTop = require("./scrollTop");
-var _scrollTopDefault = parcelHelpers.interopDefault(_scrollTop);
-function offset(node) {
-    var doc = _ownerDocumentDefault.default(node);
-    var box = {
-        top: 0,
-        left: 0,
-        height: 0,
-        width: 0
-    };
-    var docElem = doc && doc.documentElement; // Make sure it's not a disconnected DOM node
-    if (!docElem || !_containsDefault.default(docElem, node)) return box;
-    if (node.getBoundingClientRect !== undefined) box = node.getBoundingClientRect();
-    box = {
-        top: box.top + _scrollTopDefault.default(docElem) - (docElem.clientTop || 0),
-        left: box.left + _scrollLeftDefault.default(docElem) - (docElem.clientLeft || 0),
-        width: box.width,
-        height: box.height
-    };
-    return box;
-}
-exports.default = offset;
-
-},{"./contains":"d0Oul","./ownerDocument":"lrM6c","./scrollLeft":"9AAix","./scrollTop":"lQru1","@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"9AAix":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _getScrollAccessor = require("./getScrollAccessor");
-var _getScrollAccessorDefault = parcelHelpers.interopDefault(_getScrollAccessor);
-exports.default = _getScrollAccessorDefault.default('pageXOffset');
-
-},{"./getScrollAccessor":"1iRlP","@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"1iRlP":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _isWindow = require("./isWindow");
-var _isWindowDefault = parcelHelpers.interopDefault(_isWindow);
-function getscrollAccessor(offset) {
-    var prop = offset === 'pageXOffset' ? 'scrollLeft' : 'scrollTop';
-    function scrollAccessor(node, val) {
-        var win = _isWindowDefault.default(node);
-        if (val === undefined) return win ? win[offset] : node[prop];
-        if (win) win.scrollTo(win[offset], val);
-        else node[prop] = val;
-    }
-    return scrollAccessor;
-}
-exports.default = getscrollAccessor;
-
-},{"./isWindow":"e9RKY","@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"lQru1":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _getScrollAccessor = require("./getScrollAccessor");
-var _getScrollAccessorDefault = parcelHelpers.interopDefault(_getScrollAccessor);
-exports.default = _getScrollAccessorDefault.default('pageYOffset');
-
-},{"./getScrollAccessor":"1iRlP","@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"jveEr":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-function insertAfter(node, refNode) {
-    if (node && refNode && refNode.parentNode) {
-        if (refNode.nextSibling) refNode.parentNode.insertBefore(node, refNode.nextSibling);
-        else refNode.parentNode.appendChild(node);
-        return node;
-    }
-    return null;
-}
-exports.default = insertAfter;
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"aVQBg":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var regExpInputs = /^(?:input|select|textarea|button)$/i;
-function isInput(node) {
-    return node ? regExpInputs.test(node.nodeName) : false;
-}
-exports.default = isInput;
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"0BrWh":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-function isVisible(node) {
-    return node ? !!(node.offsetWidth || node.offsetHeight || node.getClientRects().length) : false;
-}
-exports.default = isVisible;
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"dPSHw":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _collectSiblings = require("./collectSiblings");
-var _collectSiblingsDefault = parcelHelpers.interopDefault(_collectSiblings);
-function nextUntil(node, selector) {
-    return _collectSiblingsDefault.default(node, node, selector);
-}
-exports.default = nextUntil;
-
-},{"./collectSiblings":"03Lta","@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"03Lta":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _matches = require("./matches");
-var _matchesDefault = parcelHelpers.interopDefault(_matches);
-function collectSiblings(node, refNode, selector) {
-    if (refNode === void 0) refNode = null;
-    if (selector === void 0) selector = null;
-    var siblings = [];
-    for(; node; node = node.nextElementSibling)if (node !== refNode) {
-        if (selector && _matchesDefault.default(node, selector)) break;
-        siblings.push(node);
-    }
-    return siblings;
-}
-exports.default = collectSiblings;
-
-},{"./matches":"1SzwY","@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"bLpd5":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _css = require("./css");
-var _cssDefault = parcelHelpers.interopDefault(_css);
-var _ownerDocument = require("./ownerDocument");
-var _ownerDocumentDefault = parcelHelpers.interopDefault(_ownerDocument);
-var isHTMLElement = function isHTMLElement1(e) {
-    return !!e && 'offsetParent' in e;
-};
-function offsetParent(node) {
-    var doc = _ownerDocumentDefault.default(node);
-    var parent = node && node.offsetParent;
-    while(isHTMLElement(parent) && parent.nodeName !== 'HTML' && _cssDefault.default(parent, 'position') === 'static')parent = parent.offsetParent;
-    return parent || doc.documentElement;
-}
-exports.default = offsetParent;
-
-},{"./css":"23gV0","./ownerDocument":"lrM6c","@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"e9kBD":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _collectElements = require("./collectElements");
-var _collectElementsDefault = parcelHelpers.interopDefault(_collectElements);
-function parents(node) {
-    return _collectElementsDefault.default(node, 'parentElement');
-}
-exports.default = parents;
-
-},{"./collectElements":"8ifOG","@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"8ifOG":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-function collectElements(node, direction) {
-    var nextNode = null;
-    var nodes = [];
-    nextNode = node ? node[direction] : null;
-    while(nextNode && nextNode.nodeType !== 9){
-        nodes.push(nextNode);
-        nextNode = nextNode[direction] || null;
-    }
-    return nodes;
-}
-exports.default = collectElements;
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"kgI7n":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _extends = require("@babel/runtime/helpers/esm/extends");
-var _extendsDefault = parcelHelpers.interopDefault(_extends);
-var _css = require("./css");
-var _cssDefault = parcelHelpers.interopDefault(_css);
-var _offset = require("./offset");
-var _offsetDefault = parcelHelpers.interopDefault(_offset);
-var _offsetParent = require("./offsetParent");
-var _offsetParentDefault = parcelHelpers.interopDefault(_offsetParent);
-var _scrollLeft = require("./scrollLeft");
-var _scrollLeftDefault = parcelHelpers.interopDefault(_scrollLeft);
-var _scrollTop = require("./scrollTop");
-var _scrollTopDefault = parcelHelpers.interopDefault(_scrollTop);
-var nodeName = function nodeName1(node) {
-    return node.nodeName && node.nodeName.toLowerCase();
-};
-function position(node, offsetParent) {
-    var parentOffset = {
-        top: 0,
-        left: 0
-    };
-    var offset; // Fixed elements are offset from window (parentOffset = {top:0, left: 0},
-    // because it is its only offset parent
-    if (_cssDefault.default(node, 'position') === 'fixed') offset = node.getBoundingClientRect();
-    else {
-        var parent = offsetParent || _offsetParentDefault.default(node);
-        offset = _offsetDefault.default(node);
-        if (nodeName(parent) !== 'html') parentOffset = _offsetDefault.default(parent);
-        var borderTop = String(_cssDefault.default(parent, 'borderTopWidth') || 0);
-        parentOffset.top += parseInt(borderTop, 10) - _scrollTopDefault.default(parent) || 0;
-        var borderLeft = String(_cssDefault.default(parent, 'borderLeftWidth') || 0);
-        parentOffset.left += parseInt(borderLeft, 10) - _scrollLeftDefault.default(parent) || 0;
-    }
-    var marginTop = String(_cssDefault.default(node, 'marginTop') || 0);
-    var marginLeft = String(_cssDefault.default(node, 'marginLeft') || 0); // Subtract parent offsets and node margins
-    return _extendsDefault.default({
-    }, offset, {
-        top: offset.top - parentOffset.top - (parseInt(marginTop, 10) || 0),
-        left: offset.left - parentOffset.left - (parseInt(marginLeft, 10) || 0)
-    });
-}
-exports.default = position;
-
-},{"@babel/runtime/helpers/esm/extends":"bKAu6","./css":"23gV0","./offset":"g9pCB","./offsetParent":"bLpd5","./scrollLeft":"9AAix","./scrollTop":"lQru1","@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"ixqfv":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-function prepend(node, parent) {
-    if (node && parent) {
-        if (parent.firstElementChild) parent.insertBefore(node, parent.firstElementChild);
-        else parent.appendChild(node);
-        return node;
-    }
-    return null;
-}
-exports.default = prepend;
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"7Z82f":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-function remove(node) {
-    if (node && node.parentNode) {
-        node.parentNode.removeChild(node);
-        return node;
-    }
-    return null;
-}
-exports.default = remove;
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"4nIiB":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-/* eslint-disable no-cond-assign, no-continue */ var _css = require("./css");
-var _cssDefault = parcelHelpers.interopDefault(_css);
-var _height = require("./height");
-var _heightDefault = parcelHelpers.interopDefault(_height);
-var _isDocument = require("./isDocument");
-var _isDocumentDefault = parcelHelpers.interopDefault(_isDocument);
-function scrollParent(element, firstPossible) {
-    var position = _cssDefault.default(element, 'position');
-    var excludeStatic = position === 'absolute';
-    var ownerDoc = element.ownerDocument;
-    if (position === 'fixed') return ownerDoc || document; // @ts-ignore
-    while((element = element.parentNode) && !_isDocumentDefault.default(element)){
-        var isStatic = excludeStatic && _cssDefault.default(element, 'position') === 'static';
-        var style = (_cssDefault.default(element, 'overflow') || '') + (_cssDefault.default(element, 'overflow-y') || '') + _cssDefault.default(element, 'overflow-x');
-        if (isStatic) continue;
-        if (/(auto|scroll)/.test(style) && (firstPossible || _heightDefault.default(element) < element.scrollHeight)) return element;
-    }
-    return ownerDoc || document;
-}
-exports.default = scrollParent;
-
-},{"./css":"23gV0","./height":"93eO8","./isDocument":"2dDcY","@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"dxiSb":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-/* eslint-disable no-nested-ternary */ var _animationFrame = require("./animationFrame");
-var _height = require("./height");
-var _heightDefault = parcelHelpers.interopDefault(_height);
-var _isWindow = require("./isWindow");
-var _isWindowDefault = parcelHelpers.interopDefault(_isWindow);
-var _offset = require("./offset");
-var _offsetDefault = parcelHelpers.interopDefault(_offset);
-var _scrollParent = require("./scrollParent");
-var _scrollParentDefault = parcelHelpers.interopDefault(_scrollParent);
-var _scrollTop = require("./scrollTop");
-var _scrollTopDefault = parcelHelpers.interopDefault(_scrollTop);
-function scrollTo(selected, scrollParent) {
-    var offset = _offsetDefault.default(selected);
-    var poff = {
-        top: 0,
-        left: 0
-    };
-    if (!selected) return undefined;
-    var list = scrollParent || _scrollParentDefault.default(selected);
-    var isWin = _isWindowDefault.default(list);
-    var listScrollTop = _scrollTopDefault.default(list);
-    var listHeight = _heightDefault.default(list, true);
-    if (!isWin) poff = _offsetDefault.default(list);
-    offset = {
-        top: offset.top - poff.top,
-        left: offset.left - poff.left,
-        height: offset.height,
-        width: offset.width
-    };
-    var selectedHeight = offset.height;
-    var selectedTop = offset.top + (isWin ? 0 : listScrollTop);
-    var bottom = selectedTop + selectedHeight;
-    listScrollTop = listScrollTop > selectedTop ? selectedTop : bottom > listScrollTop + listHeight ? bottom - listHeight : listScrollTop;
-    var id = _animationFrame.request(function() {
-        return _scrollTopDefault.default(list, listScrollTop);
-    });
-    return function() {
-        return _animationFrame.cancel(id);
-    };
-}
-exports.default = scrollTo;
-
-},{"./animationFrame":"7vQAp","./height":"93eO8","./isWindow":"e9RKY","./offset":"g9pCB","./scrollParent":"4nIiB","./scrollTop":"lQru1","@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"4wuA9":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _collectSiblings = require("./collectSiblings");
-var _collectSiblingsDefault = parcelHelpers.interopDefault(_collectSiblings);
-function siblings(node) {
-    return _collectSiblingsDefault.default(node && node.parentElement ? node.parentElement.firstElementChild : null, node);
-}
-exports.default = siblings;
-
-},{"./collectSiblings":"03Lta","@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"50wnS":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var regExpNbspEntity = /&nbsp;/gi;
-var regExpNbspHex = /\xA0/g;
-var regExpSpaces = /\s+([^\s])/gm;
-function text(node, trim, singleSpaces) {
-    if (trim === void 0) trim = true;
-    if (singleSpaces === void 0) singleSpaces = true;
-    var elementText = '';
-    if (node) {
-        elementText = (node.textContent || '').replace(regExpNbspEntity, ' ').replace(regExpNbspHex, ' ');
-        if (trim) elementText = elementText.trim();
-        if (singleSpaces) elementText = elementText.replace(regExpSpaces, ' $1');
-    }
-    return elementText;
-}
-exports.default = text;
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"g7gSQ":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _addClass = require("./addClass");
-var _addClassDefault = parcelHelpers.interopDefault(_addClass);
-var _hasClass = require("./hasClass");
-var _hasClassDefault = parcelHelpers.interopDefault(_hasClass);
-var _removeClass = require("./removeClass");
-var _removeClassDefault = parcelHelpers.interopDefault(_removeClass);
-function toggleClass(element, className) {
-    if (element.classList) element.classList.toggle(className);
-    else if (_hasClassDefault.default(element, className)) _removeClassDefault.default(element, className);
-    else _addClassDefault.default(element, className);
-}
-exports.default = toggleClass;
-
-},{"./addClass":"72Fep","./hasClass":"jjbyQ","./removeClass":"i3BZq","@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"9mQud":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _isWindow = require("./isWindow");
-var _isWindowDefault = parcelHelpers.interopDefault(_isWindow);
-var _offset = require("./offset");
-var _offsetDefault = parcelHelpers.interopDefault(_offset);
-function getWidth(node, client) {
-    var win = _isWindowDefault.default(node);
-    return win ? win.innerWidth : client ? node.clientWidth : _offsetDefault.default(node).width;
-}
-exports.default = getWidth;
-
-},{"./isWindow":"e9RKY","./offset":"g9pCB","@parcel/transformer-js/src/esmodule-helpers.js":"fOETX"}],"ikZdr":[function(require,module,exports) {
+},{"react/jsx-runtime":"8xIwr","react":"6TuXu","prop-types":"1tgq3","react-bootstrap":"h2YVd","@parcel/transformer-js/src/esmodule-helpers.js":"fOETX","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"hfOTK","./movie-card.scss":"cF5gT"}],"cF5gT":[function() {},{}],"ikZdr":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$3741 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -38702,8 +37868,7 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxRuntime = require("react/jsx-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _propTypes = require("prop-types");
-var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
+var _movieViewScss = require("./movie-view.scss");
 class MovieView extends _reactDefault.default.Component {
     render() {
         const { movie , onBackClick  } = this.props;
@@ -38711,7 +37876,7 @@ class MovieView extends _reactDefault.default.Component {
             className: "movie-view",
             __source: {
                 fileName: "src/components/movie-view/movie-view.jsx",
-                lineNumber: 9
+                lineNumber: 10
             },
             __self: this,
             children: [
@@ -38719,15 +37884,16 @@ class MovieView extends _reactDefault.default.Component {
                     className: "movie-poster",
                     __source: {
                         fileName: "src/components/movie-view/movie-view.jsx",
-                        lineNumber: 10
+                        lineNumber: 11
                     },
                     __self: this,
                     children: /*#__PURE__*/ _jsxRuntime.jsx("img", {
+                        className: "movie-image",
                         crossOrigin: "anonymous",
                         src: movie.ImagePath,
                         __source: {
                             fileName: "src/components/movie-view/movie-view.jsx",
-                            lineNumber: 11
+                            lineNumber: 12
                         },
                         __self: this
                     })
@@ -38736,7 +37902,7 @@ class MovieView extends _reactDefault.default.Component {
                     className: "movie-title",
                     __source: {
                         fileName: "src/components/movie-view/movie-view.jsx",
-                        lineNumber: 13
+                        lineNumber: 18
                     },
                     __self: this,
                     children: [
@@ -38744,7 +37910,7 @@ class MovieView extends _reactDefault.default.Component {
                             className: "label",
                             __source: {
                                 fileName: "src/components/movie-view/movie-view.jsx",
-                                lineNumber: 14
+                                lineNumber: 19
                             },
                             __self: this,
                             children: " Title: "
@@ -38753,7 +37919,7 @@ class MovieView extends _reactDefault.default.Component {
                             className: "value",
                             __source: {
                                 fileName: "src/components/movie-view/movie-view.jsx",
-                                lineNumber: 15
+                                lineNumber: 20
                             },
                             __self: this,
                             children: [
@@ -38768,7 +37934,7 @@ class MovieView extends _reactDefault.default.Component {
                     className: "movie-description",
                     __source: {
                         fileName: "src/components/movie-view/movie-view.jsx",
-                        lineNumber: 17
+                        lineNumber: 22
                     },
                     __self: this,
                     children: [
@@ -38776,7 +37942,7 @@ class MovieView extends _reactDefault.default.Component {
                             className: "label",
                             __source: {
                                 fileName: "src/components/movie-view/movie-view.jsx",
-                                lineNumber: 18
+                                lineNumber: 23
                             },
                             __self: this,
                             children: " Description: "
@@ -38785,7 +37951,7 @@ class MovieView extends _reactDefault.default.Component {
                             className: "value",
                             __source: {
                                 fileName: "src/components/movie-view/movie-view.jsx",
-                                lineNumber: 19
+                                lineNumber: 24
                             },
                             __self: this,
                             children: [
@@ -38800,7 +37966,7 @@ class MovieView extends _reactDefault.default.Component {
                     className: "movie-genre",
                     __source: {
                         fileName: "src/components/movie-view/movie-view.jsx",
-                        lineNumber: 21
+                        lineNumber: 26
                     },
                     __self: this,
                     children: [
@@ -38808,7 +37974,7 @@ class MovieView extends _reactDefault.default.Component {
                             className: "label",
                             __source: {
                                 fileName: "src/components/movie-view/movie-view.jsx",
-                                lineNumber: 22
+                                lineNumber: 27
                             },
                             __self: this,
                             children: "Genre: "
@@ -38817,7 +37983,7 @@ class MovieView extends _reactDefault.default.Component {
                             className: "value",
                             __source: {
                                 fileName: "src/components/movie-view/movie-view.jsx",
-                                lineNumber: 23
+                                lineNumber: 28
                             },
                             __self: this,
                             children: movie.Genre.Name
@@ -38828,7 +37994,7 @@ class MovieView extends _reactDefault.default.Component {
                     className: "director-name",
                     __source: {
                         fileName: "src/components/movie-view/movie-view.jsx",
-                        lineNumber: 25
+                        lineNumber: 30
                     },
                     __self: this,
                     children: [
@@ -38836,7 +38002,7 @@ class MovieView extends _reactDefault.default.Component {
                             className: "label",
                             __source: {
                                 fileName: "src/components/movie-view/movie-view.jsx",
-                                lineNumber: 26
+                                lineNumber: 31
                             },
                             __self: this,
                             children: "Director: "
@@ -38845,7 +38011,7 @@ class MovieView extends _reactDefault.default.Component {
                             className: "value",
                             __source: {
                                 fileName: "src/components/movie-view/movie-view.jsx",
-                                lineNumber: 27
+                                lineNumber: 32
                             },
                             __self: this,
                             children: movie.Director.Name
@@ -38856,7 +38022,7 @@ class MovieView extends _reactDefault.default.Component {
                     className: "director-bio",
                     __source: {
                         fileName: "src/components/movie-view/movie-view.jsx",
-                        lineNumber: 29
+                        lineNumber: 34
                     },
                     __self: this,
                     children: [
@@ -38864,7 +38030,7 @@ class MovieView extends _reactDefault.default.Component {
                             className: "label",
                             __source: {
                                 fileName: "src/components/movie-view/movie-view.jsx",
-                                lineNumber: 30
+                                lineNumber: 35
                             },
                             __self: this,
                             children: "Bio: "
@@ -38873,7 +38039,7 @@ class MovieView extends _reactDefault.default.Component {
                             className: "value",
                             __source: {
                                 fileName: "src/components/movie-view/movie-view.jsx",
-                                lineNumber: 31
+                                lineNumber: 36
                             },
                             __self: this,
                             children: movie.Director.Bio
@@ -38884,7 +38050,7 @@ class MovieView extends _reactDefault.default.Component {
                     className: "director-birth",
                     __source: {
                         fileName: "src/components/movie-view/movie-view.jsx",
-                        lineNumber: 33
+                        lineNumber: 38
                     },
                     __self: this,
                     children: [
@@ -38892,7 +38058,7 @@ class MovieView extends _reactDefault.default.Component {
                             className: "label",
                             __source: {
                                 fileName: "src/components/movie-view/movie-view.jsx",
-                                lineNumber: 34
+                                lineNumber: 39
                             },
                             __self: this,
                             children: "Birth: "
@@ -38901,7 +38067,7 @@ class MovieView extends _reactDefault.default.Component {
                             className: "value",
                             __source: {
                                 fileName: "src/components/movie-view/movie-view.jsx",
-                                lineNumber: 35
+                                lineNumber: 40
                             },
                             __self: this,
                             children: movie.Director.Birth
@@ -38914,7 +38080,7 @@ class MovieView extends _reactDefault.default.Component {
                     },
                     __source: {
                         fileName: "src/components/movie-view/movie-view.jsx",
-                        lineNumber: 37
+                        lineNumber: 42
                     },
                     __self: this,
                     children: "Back"
@@ -38930,6 +38096,6 @@ exports.default = MovieView;
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"8xIwr","react":"6TuXu","prop-types":"1tgq3","@parcel/transformer-js/src/esmodule-helpers.js":"fOETX","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"hfOTK"}],"jUTZ8":[function() {},{}]},["dSWHz","gTwpb","dLPEP"], "dLPEP", "parcelRequireaec4")
+},{"react/jsx-runtime":"8xIwr","react":"6TuXu","./movie-view.scss":"kvL93","@parcel/transformer-js/src/esmodule-helpers.js":"fOETX","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"hfOTK"}],"kvL93":[function() {},{}],"jyMAr":[function() {},{}],"jUTZ8":[function() {},{}]},["dSWHz","gTwpb","dLPEP"], "dLPEP", "parcelRequireaec4")
 
 //# sourceMappingURL=index.6701a6e1.js.map

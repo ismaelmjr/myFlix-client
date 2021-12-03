@@ -1,7 +1,8 @@
 import React from "react"; //imported react to the movie card file.
 import PropTypes from "prop-types"; // import proptypes to the movie card.
 import { Card, Button } from "react-bootstrap";
-import { width } from "dom-helpers";
+
+import "./movie-card.scss";
 
 class MovieCard extends React.Component {
   //created a component called moviecard.

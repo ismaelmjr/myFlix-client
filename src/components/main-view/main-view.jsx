@@ -8,6 +8,8 @@ import MovieCard from "../movie-card/movie-card"; // Import moviecard to the mai
 import MovieView from "../movie-view/movie-view"; // Import movieview to the main view.
 import { Row, Col, Container, Navbar, Nav } from "react-bootstrap";
 
+import "./main-view.scss";
+
 // create a class component with the name 'MainView', that can be exported and imported in other files.
 class MainView extends React.Component {
   constructor() {
