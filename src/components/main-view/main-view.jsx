@@ -48,12 +48,35 @@ class MainView extends React.Component {
   }
 
   // When a user successfully logs in, this function updates the `user` property in state to that *particular user*.
-  onLoggedIn(user) {
-    this.setState({ user });
+  onLoggedIn(authData) {
+    console.log(authData);
+    this.setState({
+      user: authData.user.Username,
+    });
+
+    localStorage.setItem("token", authData.token);
+    localStorage.setItem("user", authData.user.Username);
+    this.getMovies(authData.token);
   }
 
   onRegistration(register) {
     this.setState({ register });
+  }
+
+  getMovies(token) {
+    axios
+      .get("https://topimdbmovies.herokuapp.com/movies", {
+        headers: { Authorization: `Bearer ${token}` },
+      })
+      .then((response) => {
+        // Assign the result to the state
+        this.setState({
+          movies: response.data,
+        });
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
   }
 
   render() {
@@ -61,12 +84,12 @@ class MainView extends React.Component {
 
     /* If there is no user, the LoginView is rendered. If there is a user logged in, the user details are *passed as a prop to the LoginView*/
     if (!user)
-      return <LoginView onLoggedIn={user => this.onLoggedIn(user)} />;
+      return <LoginView onLoggedIn={(user) => this.onLoggedIn(user)} />;
 
     if (!register)
       return (
         <RegistrationView
-          onRegistration={register => this.onRegistration(register)}
+          onRegistration={(register) => this.onRegistration(register)}
         />
       );
 
