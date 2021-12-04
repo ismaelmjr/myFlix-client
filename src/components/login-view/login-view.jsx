@@ -16,17 +16,17 @@ import {
 import "./login-view.scss";
 
 function LoginView(props) {
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
+  const [Username, setUsername] = useState("");
+  const [Password, setPassword] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(username, password);
+    console.log(Username, Password);
     /* Send a request to the server for authentication */
     axios
       .post("https://topimdbmovies.herokuapp.com/login", {
-        Username: username,
-        Password: password,
+        Username: Username,
+        Password: Password,
       })
       .then((response) => {
         const data = response.data;
@@ -61,7 +61,7 @@ function LoginView(props) {
                       <Form.Label>Username:</Form.Label>
                       <Form.Control
                         type="text"
-                        value={username}
+                        value={Username}
                         onChange={(e) => setUsername(e.target.value)}
                         placeholder="Enter username"
                       />
@@ -71,7 +71,7 @@ function LoginView(props) {
                       <Form.Label>Password:</Form.Label>
                       <Form.Control
                         type="password"
-                        value={password}
+                        value={Password}
                         onChange={(e) => setPassword(e.target.value)}
                         placeholder="Enter password"
                       />
@@ -95,10 +95,6 @@ function LoginView(props) {
 }
 
 LoginView.propTypes = {
-  user: PropTypes.shape({
-    username: PropTypes.string.isRequired,
-    password: PropTypes.string.isRequired,
-  }),
   onLoggedIn: PropTypes.func.isRequired,
 };
 

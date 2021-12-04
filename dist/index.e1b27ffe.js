@@ -24645,14 +24645,14 @@ var _loginViewScss = require("./login-view.scss");
 var _s = $RefreshSig$();
 function LoginView(props) {
     _s();
-    const [username, setUsername] = _react.useState("");
-    const [password, setPassword] = _react.useState("");
+    const [Username, setUsername] = _react.useState("");
+    const [Password, setPassword] = _react.useState("");
     const handleSubmit = (e)=>{
         e.preventDefault();
-        console.log(username, password);
+        console.log(Username, Password);
         /* Send a request to the server for authentication */ _axiosDefault.default.post("https://topimdbmovies.herokuapp.com/login", {
-            Username: username,
-            Password: password
+            Username: Username,
+            Password: Password
         }).then((response)=>{
             const data = response.data;
             console.log(data);
@@ -24812,7 +24812,7 @@ function LoginView(props) {
                                                         }),
                                                         /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Form.Control, {
                                                             type: "text",
-                                                            value: username,
+                                                            value: Username,
                                                             onChange: (e)=>setUsername(e.target.value)
                                                             ,
                                                             placeholder: "Enter username",
@@ -24845,7 +24845,7 @@ function LoginView(props) {
                                                         }),
                                                         /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Form.Control, {
                                                             type: "password",
-                                                            value: password,
+                                                            value: Password,
                                                             onChange: (e)=>setPassword(e.target.value)
                                                             ,
                                                             placeholder: "Enter password",
@@ -24882,13 +24882,9 @@ function LoginView(props) {
         ]
     }));
 }
-_s(LoginView, "Lrw7JeD9zj6OUWhT/IH4OIvPKEk=");
+_s(LoginView, "zwhuZmCCK0HUnKqyyFT720C/Kmw=");
 _c = LoginView;
 LoginView.propTypes = {
-    user: _propTypesDefault.default.shape({
-        username: _propTypesDefault.default.string.isRequired,
-        password: _propTypesDefault.default.string.isRequired
-    }),
     onLoggedIn: _propTypesDefault.default.func.isRequired
 };
 exports.default = LoginView;
