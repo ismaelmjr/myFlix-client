@@ -24,12 +24,13 @@ function LoginView(props) {
     console.log(username, password);
     /* Send a request to the server for authentication */
     axios
-      .post("https://git.heroku.com/topimdbmovies.git/login", {
+      .post("https://topimdbmovies.herokuapp.com/login", {
         Username: username,
         Password: password,
       })
       .then((response) => {
         const data = response.data;
+        console.log(data);
         props.onLoggedIn(data);
       })
       .catch((e) => {
@@ -60,6 +61,7 @@ function LoginView(props) {
                       <Form.Label>Username:</Form.Label>
                       <Form.Control
                         type="text"
+                        value={username}
                         onChange={(e) => setUsername(e.target.value)}
                         placeholder="Enter username"
                       />
@@ -69,6 +71,7 @@ function LoginView(props) {
                       <Form.Label>Password:</Form.Label>
                       <Form.Control
                         type="password"
+                        value={password}
                         onChange={(e) => setPassword(e.target.value)}
                         placeholder="Enter password"
                       />
