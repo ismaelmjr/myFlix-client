@@ -16,17 +16,17 @@ import {
 import "./login-view.scss";
 
 function LoginView(props) {
-  const [Username, setUsername] = useState("");
-  const [Password, setPassword] = useState("");
+  const [username, setUsername] = useState("");
+  const [password, setpassword] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(Username, Password);
+    console.log(username, password);
     /* Send a request to the server for authentication */
     axios
       .post("https://topimdbmovies.herokuapp.com/login", {
-        Username: Username,
-        Password: Password,
+        Username: username,
+        Password: password,
       })
       .then((response) => {
         const data = response.data;
@@ -58,21 +58,21 @@ function LoginView(props) {
                   <Card.Title>Log In</Card.Title>
                   <Form>
                     <Form.Group controlId="formUsername">
-                      <Form.Label>Username:</Form.Label>
+                      <Form.Label>username:</Form.Label>
                       <Form.Control
                         type="text"
-                        value={Username}
+                        value={username}
                         onChange={(e) => setUsername(e.target.value)}
                         placeholder="Enter username"
                       />
                     </Form.Group>
 
-                    <Form.Group controlId="formPassword">
-                      <Form.Label>Password:</Form.Label>
+                    <Form.Group controlId="formpassword">
+                      <Form.Label>password:</Form.Label>
                       <Form.Control
                         type="password"
-                        value={Password}
-                        onChange={(e) => setPassword(e.target.value)}
+                        value={password}
+                        onChange={(e) => setpassword(e.target.value)}
                         placeholder="Enter password"
                       />
                     </Form.Group>
