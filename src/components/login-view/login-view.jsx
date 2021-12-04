@@ -17,7 +17,7 @@ import "./login-view.scss";
 
 function LoginView(props) {
   const [username, setUsername] = useState("");
-  const [password, setpassword] = useState("");
+  const [password, setPassword] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -61,9 +61,9 @@ function LoginView(props) {
                       <Form.Label>username:</Form.Label>
                       <Form.Control
                         type="text"
+                        placeholder="Enter username"
                         value={username}
                         onChange={(e) => setUsername(e.target.value)}
-                        placeholder="Enter username"
                       />
                     </Form.Group>
 
@@ -71,9 +71,9 @@ function LoginView(props) {
                       <Form.Label>password:</Form.Label>
                       <Form.Control
                         type="password"
-                        value={password}
-                        onChange={(e) => setpassword(e.target.value)}
                         placeholder="Enter password"
+                        value={password}
+                        onChange={(e) => setPassword(e.target.value)}
                       />
                     </Form.Group>
                     <Button

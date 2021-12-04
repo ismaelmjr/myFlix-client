@@ -24616,7 +24616,7 @@ var _s = $RefreshSig$();
 function LoginView(props) {
     _s();
     const [username, setUsername] = _react.useState("");
-    const [password, setpassword] = _react.useState("");
+    const [password, setPassword] = _react.useState("");
     const handleSubmit = (e)=>{
         e.preventDefault();
         console.log(username, password);
@@ -24765,10 +24765,10 @@ function LoginView(props) {
                                                         }),
                                                         /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Form.Control, {
                                                             type: "text",
+                                                            placeholder: "Enter username",
                                                             value: username,
                                                             onChange: (e)=>setUsername(e.target.value)
                                                             ,
-                                                            placeholder: "Enter username",
                                                             __source: {
                                                                 fileName: "src/components/login-view/login-view.jsx",
                                                                 lineNumber: 62
@@ -24795,10 +24795,10 @@ function LoginView(props) {
                                                         }),
                                                         /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Form.Control, {
                                                             type: "password",
-                                                            value: password,
-                                                            onChange: (e)=>setpassword(e.target.value)
-                                                            ,
                                                             placeholder: "Enter password",
+                                                            value: password,
+                                                            onChange: (e)=>setPassword(e.target.value)
+                                                            ,
                                                             __source: {
                                                                 fileName: "src/components/login-view/login-view.jsx",
                                                                 lineNumber: 72
@@ -24830,7 +24830,7 @@ function LoginView(props) {
         ]
     }));
 }
-_s(LoginView, "7+TGpNVAURyxpHAUGExpjL0pBno=");
+_s(LoginView, "Lrw7JeD9zj6OUWhT/IH4OIvPKEk=");
 _c = LoginView;
 LoginView.propTypes = {
     onLoggedIn: _propTypesDefault.default.func.isRequired
