@@ -20,27 +20,25 @@ function RegistrationView(props) {
   const [email, setEmail] = useState("");
   const [birthday, setBirthday] = useState("");
 
-  const handleSubmit = (e) => {
+  const handleRegistration = (e) => {
     e.preventDefault();
     console.log(username, password, email, birthday);
-    props.onRegistration(username);
+    axios
+      .post("https://topimdbmovies.herokuapp.com/users", {
+        Username: username,
+        Password: password,
+        Email: email,
+        Birthday: birthday,
+      })
+      .then((response) => {
+        const data = response.data;
+        console.log(data);
+        window.open("/", "_self"); // the second argument '_self' is necessary so that the page will open in the current tab
+      })
+      .catch((e) => {
+        console.log("error registering the user");
+      });
   };
-
-  axios
-    .post("https://topimdbmovies.herokuapp.com/users", {
-      Username: username,
-      Password: password,
-      Email: email,
-      Birthday: birthday,
-    })
-    .then((response) => {
-      const data = response.data;
-      console.log(data);
-      window.open("/", "_self"); // the second argument '_self' is necessary so that the page will open in the current tab
-    })
-    .catch((e) => {
-      console.log("error registering the user");
-    });
 
   return (
     <div>
@@ -101,7 +99,7 @@ function RegistrationView(props) {
                         placeholder="Enter birthday"
                       />
                     </Form.Group>
-                    <Button type="submit" onClick={handleSubmit}>
+                    <Button type="submit" onClick={handleRegistration}>
                       Register
                     </Button>
                   </Form>
