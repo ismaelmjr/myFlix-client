@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 import "./movie-card.scss";
 
-class MovieCard extends React.Component {
+export class MovieCard extends React.Component {
   //created a component called moviecard.
   render() {
     const { movie } = this.props; //got the title of the movie in this from the array of objects.
@@ -17,7 +17,7 @@ class MovieCard extends React.Component {
           <Card.Title>{movie.Title}</Card.Title>
           <Card.Text>{movie.Description}</Card.Text>
           <Link to={`/movies/${movie._id}`}>
-            <Button variant="link">Open</Button>
+            <Button style={{marginTop: "20px"}} variant="primary">See More</Button>
           </Link>
         </Card.Body>
       </Card>
@@ -25,4 +25,4 @@ class MovieCard extends React.Component {
   }
 }
 
-export default MovieCard;
+

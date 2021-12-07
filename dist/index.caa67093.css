@@ -1,10 +1,23 @@
 
-
-
-
-.movie-image {
-  width: 20rem;
-  padding: 20px 0;
+p {
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.movie-poster {
+  text-align: center;
 }
 
+.description-container {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+
+
+
+.button {
+  margin-right: 10px;
+}
 /*# sourceMappingURL=index.caa67093.css.map */
