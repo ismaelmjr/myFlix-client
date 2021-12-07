@@ -222,7 +222,7 @@ export class ProfileView extends React.Component {
                     <Form.Control
                       type="text"
                       name="Birthday"
-                      placeholder="mm/dd/yy"
+                      placeholder="mm/dd/yyyy"
                       onChange={(e) => this.setBirthday(e.target.value)}
                     />
                   </Form.Group>

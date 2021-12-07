@@ -40581,7 +40581,7 @@ function RegistrationView(props) {
                                                         value: birthday,
                                                         onChange: (e)=>setBirthday(e.target.value)
                                                         ,
-                                                        placeholder: "Enter birthday",
+                                                        placeholder: "mm/dd/yyyy",
                                                         __source: {
                                                             fileName: "src/components/registration-view/registration-view.jsx",
                                                             lineNumber: 86
@@ -41168,7 +41168,7 @@ class ProfileView extends _reactDefault.default.Component {
                                                     /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Form.Control, {
                                                         type: "text",
                                                         name: "Birthday",
-                                                        placeholder: "mm/dd/yy",
+                                                        placeholder: "mm/dd/yyyy",
                                                         onChange: (e)=>this.setBirthday(e.target.value)
                                                         ,
                                                         __source: {

@@ -87,7 +87,7 @@ export function RegistrationView(props) {
                         type="text"
                         value={birthday}
                         onChange={(e) => setBirthday(e.target.value)}
-                        placeholder="Enter birthday"
+                        placeholder="mm/dd/yyyy"
                       />
                     </Form.Group>
                     <Button
