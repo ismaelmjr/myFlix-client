@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
+import axios from "axios";
 import {
   Form,
   Button,
@@ -14,30 +15,34 @@ import {
 
 import "./registration-view.scss";
 
-function RegistrationView(props) {
+export function RegistrationView(props) {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [email, setEmail] = useState("");
   const [birthday, setBirthday] = useState("");
 
-  const handleSubmit = (e) => {
+  const handleRegistration = (e) => {
     e.preventDefault();
     console.log(username, password, email, birthday);
-    props.onRegistration(username);
+    axios
+      .post("https://topimdbmovies.herokuapp.com/users", {
+        Username: username,
+        Password: password,
+        Email: email,
+        Birthday: birthday,
+      })
+      .then((response) => {
+        const data = response.data;
+        console.log(data);
+        window.open("/", "_self"); // the second argument '_self' is necessary so that the page will open in the current tab
+      })
+      .catch((e) => {
+        console.log("error registering the user");
+      });
   };
 
   return (
     <div>
-      <Navbar bg="dark" variant="dark">
-        <Container>
-          <Navbar.Brand href="#home">MyFlix</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-
       <Container>
         <Row>
           <Col>
@@ -82,10 +87,14 @@ function RegistrationView(props) {
                         type="text"
                         value={birthday}
                         onChange={(e) => setBirthday(e.target.value)}
-                        placeholder="Enter birthday"
+                        placeholder="mm/dd/yyyy"
                       />
                     </Form.Group>
-                    <Button type="submit" onClick={handleSubmit}>
+                    <Button
+                      style={{ marginTop: "20px" }}
+                      type="submit"
+                      onClick={handleRegistration}
+                    >
                       Register
                     </Button>
                   </Form>
@@ -108,5 +117,3 @@ RegistrationView.propTypes = {
   }),
   onRegistration: PropTypes.func.isRequired,
 };
-
-export default RegistrationView;
