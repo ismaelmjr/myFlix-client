@@ -10,8 +10,6 @@ import {
   Container,
   Col,
   Row,
-  Navbar,
-  Container,
 } from "react-bootstrap";
 
 import "./login-view.scss";
@@ -41,7 +39,6 @@ export function LoginView(props) {
 
   return (
     <>
-
       <div className="login-view">
         <Container>
           <Row>

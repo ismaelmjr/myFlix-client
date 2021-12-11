@@ -9,8 +9,6 @@ import {
   Container,
   Col,
   Row,
-  Navbar,
-  Nav,
 } from "react-bootstrap";
 
 import "./registration-view.scss";
