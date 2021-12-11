@@ -82,7 +82,7 @@ export function RegistrationView(props) {
                     <Form.Group>
                       <Form.Label>Birthday:</Form.Label>
                       <Form.Control
-                        type="text"
+                        type="date"
                         value={birthday}
                         onChange={(e) => setBirthday(e.target.value)}
                         placeholder="mm/dd/yyyy"

@@ -1,4 +1,5 @@
 
+
 p {
   font-size: 1rem;
   margin-top: 10px;
@@ -14,10 +15,42 @@ p {
   margin-top: 40px;
 }
 
+.fave-button {
+  width: 90%;
+  margin: 20px auto;
+}
 
-
+.card {
+  margin-top: 30px;
+}
 
 .button {
   margin-right: 10px;
 }
+
+.fav-poster {
+  width: 20%;
+}
+
+.user-profile {
+  margin-top: 30px;
+}
+
+.card-title {
+  padding: 10px;
+}
+
+.profile-container {
+  padding: 10px;
+}
+
+.form-label {
+  padding-top: 10px;
+}
+
+h4 {
+  padding-left: 10px;
+}
+
+
 /*# sourceMappingURL=index.caa67093.css.map */

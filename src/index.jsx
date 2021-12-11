@@ -5,7 +5,7 @@ import { Provider } from "react-redux";
 import moviesApp from "./reducers/reducers";
 import { devToolsEnhancer } from "redux-devtools-extension";
 
-import { MainView } from "./components/main-view/main-view"; // Import statement to indicate that you need to bundle `./index.scss`
+import MainView from "./components/main-view/main-view"; // Import statement to indicate that you need to bundle `./index.scss`
 import "./index.scss";
 
 const store = createStore(moviesApp, devToolsEnhancer());

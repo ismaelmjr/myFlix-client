@@ -170,8 +170,8 @@ export class ProfileView extends React.Component {
         <Row>
           <Col>
             <Card className="update-profile">
-              <Card.Body>
-                <Card.Title>Update Profile</Card.Title>
+              <Card.Body className="card-body">
+                <Card.Title className="card-title">Update Profile</Card.Title>
                 <Form
                   className="update-form"
                   onSubmit={(e) =>
@@ -220,7 +220,7 @@ export class ProfileView extends React.Component {
                   <Form.Group>
                     <Form.Label>Birthday</Form.Label>
                     <Form.Control
-                      type="text"
+                      type="date"
                       name="Birthday"
                       placeholder="mm/dd/yyyy"
                       onChange={(e) => this.setBirthday(e.target.value)}
