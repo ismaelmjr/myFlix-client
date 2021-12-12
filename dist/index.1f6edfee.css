@@ -1,0 +1,56 @@
+
+
+p {
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.movie-poster {
+  text-align: center;
+}
+
+.description-container {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.fave-button {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.card {
+  margin-top: 30px;
+}
+
+.button {
+  margin-right: 10px;
+}
+
+.fav-poster {
+  width: 20%;
+}
+
+.user-profile {
+  margin-top: 30px;
+}
+
+.card-title {
+  padding: 10px;
+}
+
+.profile-container {
+  padding: 10px;
+}
+
+.form-label {
+  padding-top: 10px;
+}
+
+h4 {
+  padding-left: 10px;
+}
+
+
+/*# sourceMappingURL=index.1f6edfee.css.map */
