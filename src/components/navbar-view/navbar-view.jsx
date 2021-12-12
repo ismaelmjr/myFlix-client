@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
+import './navbar-view.scss';
 
 
 export class NavbarView extends React.Component {

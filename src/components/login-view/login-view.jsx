@@ -49,8 +49,9 @@ export function LoginView(props) {
                     <Card.Title>Log In</Card.Title>
                     <Form>
                       <Form.Group controlId="formUsername">
-                        <Form.Label>Username:</Form.Label>
-                        <Form.Control
+                        <span className="subtitle">USERNAME:</span>
+                        <br />
+                        <input
                           type="text"
                           placeholder="Enter username"
                           value={username}
@@ -59,8 +60,9 @@ export function LoginView(props) {
                       </Form.Group>
 
                       <Form.Group controlId="formpassword">
-                        <Form.Label>Password:</Form.Label>
-                        <Form.Control
+                       <span className="subtitle">PASSWORD</span>
+                       <br />
+                        <input
                           type="password"
                           placeholder="Enter password"
                           value={password}

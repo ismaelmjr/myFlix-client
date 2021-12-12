@@ -1,4 +1,33 @@
+body {
+  font-size: larger;
+  background-color: #121212;
+}
 
+.card,
+.card-body {
+  background: #1f1f1f;
+  color: whitesmoke;
+}
+
+.subtitle,
+p {
+  font-size: 11px;
+  color: rgba(177, 177, 177, 0.3);
+}
+
+input {
+  border: none;
+  border-bottom: solid #8f8f8f 1px;
+  margin-bottom: 30px;
+  background: none;
+  color: rgba(255, 255, 255, 0.555);
+  height: 35px;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+}
 
 p {
   font-size: 1rem;
@@ -50,6 +79,12 @@ p {
 
 h4 {
   padding-left: 10px;
+}
+.navbar {
+  background-color: #121212 !important;
+}
+.visibility-filter {
+  width: 100%;
 }
 
 

@@ -185,8 +185,9 @@ export class ProfileView extends React.Component {
                   }
                 >
                   <Form.Group>
-                    <Form.Label>Username</Form.Label>
-                    <Form.Control
+                    <span className="subtitle">USERNAME:</span>
+                    <br />
+                    <input
                       type="text"
                       name="Username"
                       placeholder="New Username"
@@ -196,8 +197,9 @@ export class ProfileView extends React.Component {
                   </Form.Group>
 
                   <Form.Group>
-                    <Form.Label>Password</Form.Label>
-                    <Form.Control
+                    <span className="subtitle">PASSWORD:</span>
+                    <br />
+                    <input
                       type="password"
                       name="Password"
                       placeholder="New Password"
@@ -207,8 +209,9 @@ export class ProfileView extends React.Component {
                   </Form.Group>
 
                   <Form.Group>
-                    <Form.Label>Email</Form.Label>
-                    <Form.Control
+                    <span className="subtitle">EMAIL:</span>
+                    <br />
+                    <input
                       type="email"
                       name="Email"
                       placeholder="Enter Email"
@@ -218,8 +221,9 @@ export class ProfileView extends React.Component {
                   </Form.Group>
 
                   <Form.Group>
-                    <Form.Label>Birthday</Form.Label>
-                    <Form.Control
+                    <span className="subtitle">BIRTHDAY:</span>
+                    <br />
+                    <input
                       type="date"
                       name="Birthday"
                       placeholder="mm/dd/yyyy"
@@ -282,7 +286,7 @@ export class ProfileView extends React.Component {
                               crossOrigin="true"
                               src={movie.ImagePath}
                             />
-                            <Card.Body style={{ backgroundColor: "white" }}>
+                            <Card.Body>
                               <Card.Title className="movie_title">
                                 {movie.Title}
                               </Card.Title>
