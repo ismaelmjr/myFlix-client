@@ -103,9 +103,3 @@ export function LoginView(props) {
 LoginView.propTypes = {
   onLoggedIn: PropTypes.func.isRequired,
 };
-
-let mapStateToProps = state => {
-  return { user: state.user }
-}
-
-export default connect(mapStateToProps, { setUser } )(LoginView);
