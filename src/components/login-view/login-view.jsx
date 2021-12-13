@@ -60,8 +60,8 @@ export function LoginView(props) {
                       </Form.Group>
 
                       <Form.Group controlId="formpassword">
-                       <span className="subtitle">PASSWORD</span>
-                       <br />
+                        <span className="subtitle">PASSWORD</span>
+                        <br />
                         <input
                           type="password"
                           placeholder="Enter password"
@@ -103,3 +103,9 @@ export function LoginView(props) {
 LoginView.propTypes = {
   onLoggedIn: PropTypes.func.isRequired,
 };
+
+let mapStateToProps = state => {
+  return { user: state.user }
+}
+
+export default connect(mapStateToProps, { setUser } )(LoginView);

@@ -1,5 +1,4 @@
 import React from "react"; //imported react to the movie card file.
-import PropTypes from "prop-types"; // import proptypes to the movie card.
 import { Card, Button } from "react-bootstrap";
 
 import { Link } from "react-router-dom";
