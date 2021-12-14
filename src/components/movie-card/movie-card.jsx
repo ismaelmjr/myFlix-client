@@ -1,5 +1,4 @@
 import React from "react"; //imported react to the movie card file.
-import PropTypes from "prop-types"; // import proptypes to the movie card.
 import { Card, Button } from "react-bootstrap";
 
 import { Link } from "react-router-dom";
@@ -17,12 +16,12 @@ export class MovieCard extends React.Component {
           <Card.Title>{movie.Title}</Card.Title>
           <Card.Text>{movie.Description}</Card.Text>
           <Link to={`/movies/${movie._id}`}>
-            <Button style={{marginTop: "20px"}} variant="primary">See More</Button>
+            <Button style={{ marginTop: "20px" }} variant="light">
+              See More
+            </Button>
           </Link>
         </Card.Body>
       </Card>
     );
   }
 }
-
-

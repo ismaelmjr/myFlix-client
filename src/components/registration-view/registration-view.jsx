@@ -9,8 +9,6 @@ import {
   Container,
   Col,
   Row,
-  Navbar,
-  Nav,
 } from "react-bootstrap";
 
 import "./registration-view.scss";
@@ -49,11 +47,12 @@ export function RegistrationView(props) {
             <CardGroup>
               <Card>
                 <Card.Body>
-                  <Card.Title>Please Register:</Card.Title>
+                  <Card.Title>Please Register</Card.Title>
                   <Form>
                     <Form.Group>
-                      <Form.Label>Username:</Form.Label>
-                      <Form.Control
+                      <span className="subtitle">USERNAME:</span>
+                      <br />
+                      <input
                         type="text"
                         value={username}
                         onChange={(e) => setUsername(e.target.value)}
@@ -62,8 +61,9 @@ export function RegistrationView(props) {
                     </Form.Group>
 
                     <Form.Group>
-                      <Form.Label>Password:</Form.Label>
-                      <Form.Control
+                      <span className="subtitle">PASSWORD:</span>
+                      <br />
+                      <input
                         type="password"
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
@@ -72,8 +72,9 @@ export function RegistrationView(props) {
                     </Form.Group>
 
                     <Form.Group>
-                      <Form.Label>Email:</Form.Label>
-                      <Form.Control
+                      <span className="subtitle">EMAIL:</span>
+                      <br />
+                      <input
                         type="text"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
@@ -82,9 +83,10 @@ export function RegistrationView(props) {
                     </Form.Group>
 
                     <Form.Group>
-                      <Form.Label>Birthday:</Form.Label>
-                      <Form.Control
-                        type="text"
+                      <span className="subtitle">BIRTHDAY:</span>
+                      <br />
+                      <input
+                        type="date"
                         value={birthday}
                         onChange={(e) => setBirthday(e.target.value)}
                         placeholder="mm/dd/yyyy"

@@ -2,27 +2,29 @@
 import React from "react";
 import axios from "axios";
 import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
+import { connect } from "react-redux";
 
 import { RegistrationView } from "../registration-view/registration-view";
 import { LoginView } from "../login-view/login-view";
 import { MovieView } from "../movie-view/movie-view";
 import { DirectorView } from "../director-view/director-view";
 import { GenreView } from "../genre-view/genre-view";
-import { MovieCard } from "../movie-card/movie-card";
 import { Row, Col, Container } from "react-bootstrap";
 import { ProfileView } from "../profile-view/profile-view";
 import { NavbarView } from "../navbar-view/navbar-view";
+import { setMovie } from "../../actions/actions";
+
+import MovieList from "../movies-list/movies-list";
 import "./main-view.scss";
 
 // create a class component with the name 'MainView', that can be exported and imported in other files.
-export class MainView extends React.Component {
+class MainView extends React.Component {
   constructor() {
     // Is the entry point for the component.
     super(); // The super function is needed to be able to use this.state. It initializes the components state.
     this.state = {
       // code executed right when the component is created in the memory.
       // initial state set to null, and empty array.
-      movies: [],
       user: null,
     };
   }
@@ -38,16 +40,30 @@ export class MainView extends React.Component {
     }
   }
 
+  //======================Before Redux=======================
+  // getMovies(token) {
+  //   axios
+  //     .get("https://topimdbmovies.herokuapp.com/movies", {
+  //       headers: { Authorization: `Bearer ${token}` },
+  //     })
+  //     .then((response) => {
+  //       // Assign the result to the state
+  //       this.setState({
+  //         movies: response.data,
+  //       });
+  //     })
+  //     .catch(function (error) {
+  //       console.log(error);
+  //     });
+  // }
+
   getMovies(token) {
     axios
       .get("https://topimdbmovies.herokuapp.com/movies", {
         headers: { Authorization: `Bearer ${token}` },
       })
       .then((response) => {
-        // Assign the result to the state
-        this.setState({
-          movies: response.data,
-        });
+        this.props.setMovie(response.data);
       })
       .catch(function (error) {
         console.log(error);
@@ -67,7 +83,8 @@ export class MainView extends React.Component {
   }
 
   render() {
-    const { movies, user } = this.state;
+    const { movies } = this.props;
+    const { user } = this.state;
 
     return (
       <>
@@ -89,11 +106,7 @@ export class MainView extends React.Component {
                       </Col>
                     );
                   if (movies.length === 0) return <div className="main-view" />;
-                  return movies.map((m) => (
-                    <Col md={3} key={m._id}>
-                      <MovieCard movie={m} />
-                    </Col>
-                  ));
+                  return <MovieList movies={movies} />;
                 }}
               />
               {/* route for link on main-view to register-view */}
@@ -214,3 +227,9 @@ export class MainView extends React.Component {
     );
   }
 }
+
+let mapStateToProps = (state) => {
+  return { movies: state.movies };
+};
+
+export default connect(mapStateToProps, { setMovie })(MainView);
