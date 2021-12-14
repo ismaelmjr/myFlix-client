@@ -1,6 +1,9 @@
 body {
   font-size: larger;
-  background-color: #121212;
+  background-image: url(image_1.f3146748.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 .card,
@@ -33,6 +36,14 @@ p {
   font-size: 1rem;
   margin-top: 10px;
   margin-bottom: 0;
+}
+
+.intro {
+  font-weight: 200;
+  text-align: center;
+  padding-top: 50px;
+  color: whitesmoke;
+  letter-spacing: 0.5px;
 }
 .movie-poster {
   text-align: center;

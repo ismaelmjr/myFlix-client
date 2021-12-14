@@ -40,6 +40,7 @@ export function LoginView(props) {
   return (
     <>
       <div className="login-view">
+        <h1 className="intro">Welcome, to My Flix!</h1>
         <Container>
           <Row>
             <Col>

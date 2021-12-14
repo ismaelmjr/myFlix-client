@@ -42002,7 +42002,7 @@ function LoginView(props) {
         });
     };
     return(/*#__PURE__*/ _jsxRuntime.jsx(_jsxRuntime.Fragment, {
-        children: /*#__PURE__*/ _jsxRuntime.jsx("div", {
+        children: /*#__PURE__*/ _jsxRuntime.jsxs("div", {
             className: "login-view",
             __source: {
                 fileName: "src/components/login-view/login-view.jsx",
@@ -42010,209 +42010,221 @@ function LoginView(props) {
                 columnNumber: 7
             },
             __self: this,
-            children: /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Container, {
-                __source: {
-                    fileName: "src/components/login-view/login-view.jsx",
-                    lineNumber: 43,
-                    columnNumber: 9
-                },
-                __self: this,
-                children: /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Row, {
+            children: [
+                /*#__PURE__*/ _jsxRuntime.jsx("h1", {
+                    className: "intro",
+                    __source: {
+                        fileName: "src/components/login-view/login-view.jsx",
+                        lineNumber: 43,
+                        columnNumber: 9
+                    },
+                    __self: this,
+                    children: "Welcome, to My Flix!"
+                }),
+                /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Container, {
                     __source: {
                         fileName: "src/components/login-view/login-view.jsx",
                         lineNumber: 44,
-                        columnNumber: 11
+                        columnNumber: 9
                     },
                     __self: this,
-                    children: /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Col, {
+                    children: /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Row, {
                         __source: {
                             fileName: "src/components/login-view/login-view.jsx",
                             lineNumber: 45,
-                            columnNumber: 13
+                            columnNumber: 11
                         },
                         __self: this,
-                        children: /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.CardGroup, {
+                        children: /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Col, {
                             __source: {
                                 fileName: "src/components/login-view/login-view.jsx",
                                 lineNumber: 46,
-                                columnNumber: 15
+                                columnNumber: 13
                             },
                             __self: this,
-                            children: /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Card, {
+                            children: /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.CardGroup, {
                                 __source: {
                                     fileName: "src/components/login-view/login-view.jsx",
                                     lineNumber: 47,
-                                    columnNumber: 17
+                                    columnNumber: 15
                                 },
                                 __self: this,
-                                children: /*#__PURE__*/ _jsxRuntime.jsxs(_reactBootstrap.Card.Body, {
+                                children: /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Card, {
                                     __source: {
                                         fileName: "src/components/login-view/login-view.jsx",
                                         lineNumber: 48,
-                                        columnNumber: 19
+                                        columnNumber: 17
                                     },
                                     __self: this,
-                                    children: [
-                                        /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Card.Title, {
-                                            __source: {
-                                                fileName: "src/components/login-view/login-view.jsx",
-                                                lineNumber: 49,
-                                                columnNumber: 21
-                                            },
-                                            __self: this,
-                                            children: "Log In"
-                                        }),
-                                        /*#__PURE__*/ _jsxRuntime.jsxs(_reactBootstrap.Form, {
-                                            __source: {
-                                                fileName: "src/components/login-view/login-view.jsx",
-                                                lineNumber: 50,
-                                                columnNumber: 21
-                                            },
-                                            __self: this,
-                                            children: [
-                                                /*#__PURE__*/ _jsxRuntime.jsxs(_reactBootstrap.Form.Group, {
-                                                    controlId: "formUsername",
-                                                    __source: {
-                                                        fileName: "src/components/login-view/login-view.jsx",
-                                                        lineNumber: 51,
-                                                        columnNumber: 23
-                                                    },
-                                                    __self: this,
-                                                    children: [
-                                                        /*#__PURE__*/ _jsxRuntime.jsx("span", {
-                                                            className: "subtitle",
-                                                            __source: {
-                                                                fileName: "src/components/login-view/login-view.jsx",
-                                                                lineNumber: 52,
-                                                                columnNumber: 25
-                                                            },
-                                                            __self: this,
-                                                            children: "USERNAME:"
-                                                        }),
-                                                        /*#__PURE__*/ _jsxRuntime.jsx("br", {
-                                                            __source: {
-                                                                fileName: "src/components/login-view/login-view.jsx",
-                                                                lineNumber: 53,
-                                                                columnNumber: 25
-                                                            },
-                                                            __self: this
-                                                        }),
-                                                        /*#__PURE__*/ _jsxRuntime.jsx("input", {
-                                                            type: "text",
-                                                            placeholder: "Enter username",
-                                                            value: username,
-                                                            onChange: (e)=>setUsername(e.target.value)
-                                                            ,
-                                                            __source: {
-                                                                fileName: "src/components/login-view/login-view.jsx",
-                                                                lineNumber: 54,
-                                                                columnNumber: 25
-                                                            },
-                                                            __self: this
-                                                        })
-                                                    ]
-                                                }),
-                                                /*#__PURE__*/ _jsxRuntime.jsxs(_reactBootstrap.Form.Group, {
-                                                    controlId: "formpassword",
-                                                    __source: {
-                                                        fileName: "src/components/login-view/login-view.jsx",
-                                                        lineNumber: 62,
-                                                        columnNumber: 23
-                                                    },
-                                                    __self: this,
-                                                    children: [
-                                                        /*#__PURE__*/ _jsxRuntime.jsx("span", {
-                                                            className: "subtitle",
-                                                            __source: {
-                                                                fileName: "src/components/login-view/login-view.jsx",
-                                                                lineNumber: 63,
-                                                                columnNumber: 25
-                                                            },
-                                                            __self: this,
-                                                            children: "PASSWORD"
-                                                        }),
-                                                        /*#__PURE__*/ _jsxRuntime.jsx("br", {
-                                                            __source: {
-                                                                fileName: "src/components/login-view/login-view.jsx",
-                                                                lineNumber: 64,
-                                                                columnNumber: 25
-                                                            },
-                                                            __self: this
-                                                        }),
-                                                        /*#__PURE__*/ _jsxRuntime.jsx("input", {
-                                                            type: "password",
-                                                            placeholder: "Enter password",
-                                                            value: password,
-                                                            onChange: (e)=>setPassword(e.target.value)
-                                                            ,
-                                                            __source: {
-                                                                fileName: "src/components/login-view/login-view.jsx",
-                                                                lineNumber: 65,
-                                                                columnNumber: 25
-                                                            },
-                                                            __self: this
-                                                        })
-                                                    ]
-                                                }),
-                                                /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Button, {
-                                                    variant: "primary",
-                                                    type: "submit",
-                                                    onClick: handleSubmit,
-                                                    style: {
-                                                        marginTop: "20px"
-                                                    },
-                                                    __source: {
-                                                        fileName: "src/components/login-view/login-view.jsx",
-                                                        lineNumber: 72,
-                                                        columnNumber: 23
-                                                    },
-                                                    __self: this,
-                                                    children: "Login"
-                                                }),
-                                                /*#__PURE__*/ _jsxRuntime.jsx("p", {
-                                                    __source: {
-                                                        fileName: "src/components/login-view/login-view.jsx",
-                                                        lineNumber: 80,
-                                                        columnNumber: 23
-                                                    },
-                                                    __self: this,
-                                                    children: "New to Topimdbmovies? Please sign up!"
-                                                }),
-                                                /*#__PURE__*/ _jsxRuntime.jsx(_reactRouterDom.Link, {
-                                                    to: "/register",
-                                                    __source: {
-                                                        fileName: "src/components/login-view/login-view.jsx",
-                                                        lineNumber: 81,
-                                                        columnNumber: 23
-                                                    },
-                                                    __self: this,
-                                                    children: /*#__PURE__*/ _jsxRuntime.jsxs(_reactBootstrap.Button, {
-                                                        style: {
-                                                            marginTop: "10px"
-                                                        },
-                                                        variant: "primary",
-                                                        type: "button",
+                                    children: /*#__PURE__*/ _jsxRuntime.jsxs(_reactBootstrap.Card.Body, {
+                                        __source: {
+                                            fileName: "src/components/login-view/login-view.jsx",
+                                            lineNumber: 49,
+                                            columnNumber: 19
+                                        },
+                                        __self: this,
+                                        children: [
+                                            /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Card.Title, {
+                                                __source: {
+                                                    fileName: "src/components/login-view/login-view.jsx",
+                                                    lineNumber: 50,
+                                                    columnNumber: 21
+                                                },
+                                                __self: this,
+                                                children: "Log In"
+                                            }),
+                                            /*#__PURE__*/ _jsxRuntime.jsxs(_reactBootstrap.Form, {
+                                                __source: {
+                                                    fileName: "src/components/login-view/login-view.jsx",
+                                                    lineNumber: 51,
+                                                    columnNumber: 21
+                                                },
+                                                __self: this,
+                                                children: [
+                                                    /*#__PURE__*/ _jsxRuntime.jsxs(_reactBootstrap.Form.Group, {
+                                                        controlId: "formUsername",
                                                         __source: {
                                                             fileName: "src/components/login-view/login-view.jsx",
-                                                            lineNumber: 82,
-                                                            columnNumber: 25
+                                                            lineNumber: 52,
+                                                            columnNumber: 23
                                                         },
                                                         __self: this,
                                                         children: [
-                                                            " ",
-                                                            "Create Account"
+                                                            /*#__PURE__*/ _jsxRuntime.jsx("span", {
+                                                                className: "subtitle",
+                                                                __source: {
+                                                                    fileName: "src/components/login-view/login-view.jsx",
+                                                                    lineNumber: 53,
+                                                                    columnNumber: 25
+                                                                },
+                                                                __self: this,
+                                                                children: "USERNAME:"
+                                                            }),
+                                                            /*#__PURE__*/ _jsxRuntime.jsx("br", {
+                                                                __source: {
+                                                                    fileName: "src/components/login-view/login-view.jsx",
+                                                                    lineNumber: 54,
+                                                                    columnNumber: 25
+                                                                },
+                                                                __self: this
+                                                            }),
+                                                            /*#__PURE__*/ _jsxRuntime.jsx("input", {
+                                                                type: "text",
+                                                                placeholder: "Enter username",
+                                                                value: username,
+                                                                onChange: (e)=>setUsername(e.target.value)
+                                                                ,
+                                                                __source: {
+                                                                    fileName: "src/components/login-view/login-view.jsx",
+                                                                    lineNumber: 55,
+                                                                    columnNumber: 25
+                                                                },
+                                                                __self: this
+                                                            })
                                                         ]
+                                                    }),
+                                                    /*#__PURE__*/ _jsxRuntime.jsxs(_reactBootstrap.Form.Group, {
+                                                        controlId: "formpassword",
+                                                        __source: {
+                                                            fileName: "src/components/login-view/login-view.jsx",
+                                                            lineNumber: 63,
+                                                            columnNumber: 23
+                                                        },
+                                                        __self: this,
+                                                        children: [
+                                                            /*#__PURE__*/ _jsxRuntime.jsx("span", {
+                                                                className: "subtitle",
+                                                                __source: {
+                                                                    fileName: "src/components/login-view/login-view.jsx",
+                                                                    lineNumber: 64,
+                                                                    columnNumber: 25
+                                                                },
+                                                                __self: this,
+                                                                children: "PASSWORD"
+                                                            }),
+                                                            /*#__PURE__*/ _jsxRuntime.jsx("br", {
+                                                                __source: {
+                                                                    fileName: "src/components/login-view/login-view.jsx",
+                                                                    lineNumber: 65,
+                                                                    columnNumber: 25
+                                                                },
+                                                                __self: this
+                                                            }),
+                                                            /*#__PURE__*/ _jsxRuntime.jsx("input", {
+                                                                type: "password",
+                                                                placeholder: "Enter password",
+                                                                value: password,
+                                                                onChange: (e)=>setPassword(e.target.value)
+                                                                ,
+                                                                __source: {
+                                                                    fileName: "src/components/login-view/login-view.jsx",
+                                                                    lineNumber: 66,
+                                                                    columnNumber: 25
+                                                                },
+                                                                __self: this
+                                                            })
+                                                        ]
+                                                    }),
+                                                    /*#__PURE__*/ _jsxRuntime.jsx(_reactBootstrap.Button, {
+                                                        variant: "primary",
+                                                        type: "submit",
+                                                        onClick: handleSubmit,
+                                                        style: {
+                                                            marginTop: "20px"
+                                                        },
+                                                        __source: {
+                                                            fileName: "src/components/login-view/login-view.jsx",
+                                                            lineNumber: 73,
+                                                            columnNumber: 23
+                                                        },
+                                                        __self: this,
+                                                        children: "Login"
+                                                    }),
+                                                    /*#__PURE__*/ _jsxRuntime.jsx("p", {
+                                                        __source: {
+                                                            fileName: "src/components/login-view/login-view.jsx",
+                                                            lineNumber: 81,
+                                                            columnNumber: 23
+                                                        },
+                                                        __self: this,
+                                                        children: "New to Topimdbmovies? Please sign up!"
+                                                    }),
+                                                    /*#__PURE__*/ _jsxRuntime.jsx(_reactRouterDom.Link, {
+                                                        to: "/register",
+                                                        __source: {
+                                                            fileName: "src/components/login-view/login-view.jsx",
+                                                            lineNumber: 82,
+                                                            columnNumber: 23
+                                                        },
+                                                        __self: this,
+                                                        children: /*#__PURE__*/ _jsxRuntime.jsxs(_reactBootstrap.Button, {
+                                                            style: {
+                                                                marginTop: "10px"
+                                                            },
+                                                            variant: "primary",
+                                                            type: "button",
+                                                            __source: {
+                                                                fileName: "src/components/login-view/login-view.jsx",
+                                                                lineNumber: 83,
+                                                                columnNumber: 25
+                                                            },
+                                                            __self: this,
+                                                            children: [
+                                                                " ",
+                                                                "Create Account"
+                                                            ]
+                                                        })
                                                     })
-                                                })
-                                            ]
-                                        })
-                                    ]
+                                                ]
+                                            })
+                                        ]
+                                    })
                                 })
                             })
                         })
                     })
                 })
-            })
+            ]
         })
     }));
 }
